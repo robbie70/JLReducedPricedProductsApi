@@ -30,11 +30,11 @@ and right-click the folder and select the pop-out option "run all tests". This w
 In Intellij, navigate to the Project folder,  
 /src/main/java/com.zensar.tech/app  
 and right-click the class "Application" and select the option "Run Application.main()" wait until the application has started. The log entries should be error free and the last entries show show something similar to the below with application hosted by Tomcat at port 8080,  
-2019-01-25 17:06:58.122  INFO 18056 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-01-25 17:06:58.122  INFO 18056 --- [           main] com.zensar.techtest.app.Application      : Started Application in 3.491 seconds (JVM running for 4.157)
-2019-01-25 17:07:38.177  INFO 18056 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-01-25 17:07:38.177  INFO 18056 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-01-25 17:07:38.184  INFO 18056 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-01-25 17:06:58.122  INFO 18056 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''  
+2019-01-25 17:06:58.122  INFO 18056 --- [           main] com.zensar.techtest.app.Application      : Started Application in 3.491 seconds (JVM running for 4.157)  
+2019-01-25 17:07:38.177  INFO 18056 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2019-01-25 17:07:38.177  INFO 18056 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'  
+2019-01-25 17:07:38.184  INFO 18056 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms  
 
 ## Calling the Application from a web browser
 The application can  be called from the following urls,  
