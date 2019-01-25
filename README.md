@@ -18,6 +18,7 @@ need to be able to issue the Git commands to download and install a copy of the 
 ### Installing
 
 Create a new project directory on your local PC and from there issue the below "git clone" command to download and create a local repository for the project.
+
 C:\PATH_TO_DIR\>git clone "https://github.com/robbie70/JLReducedPricedProductsApi.git"
 
 ## Running the tests
