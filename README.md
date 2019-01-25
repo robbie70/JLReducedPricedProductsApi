@@ -1,6 +1,6 @@
 # JLReducedPricedProductsApi
 
-# Products in Category - Price Reduction Service
+# Products in Category - Reduced Price Products Service
 
 This service is used to return a list of products in category 600001506 that have a price reduction. The service returns an array of products showing those products with the greatest price reduction first.
 
