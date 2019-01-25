@@ -34,6 +34,7 @@ In Intellij, navigate to the Project folder,
 and right-click the class "Application" and select the option "Run Application.main()"
 
 wait until the application has started. The log entries should be error free and the last entries show show something similar to the below with application hosted by Tomcat at port 8080,
+
 2019-01-25 17:06:58.122  INFO 18056 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2019-01-25 17:06:58.122  INFO 18056 --- [           main] com.zensar.techtest.app.Application      : Started Application in 3.491 seconds (JVM running for 4.157)
 2019-01-25 17:07:38.177  INFO 18056 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
@@ -42,6 +43,7 @@ wait until the application has started. The log entries should be error free and
 
 ## Calling the Application from a web browser
 The application can  be called from the following urls,
+
 "http://localhost:8080/api/600001506/getreducedproductslist?labelType=ShowWasNow",
 "http://localhost:8080/api/600001506/getreducedproductslist?labelType=ShowWasThenNow",
 "http://localhost:8080/api/600001506/getreducedproductslist?labelType=ShowPercDscount" or
