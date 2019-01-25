@@ -1,8 +1,8 @@
-package com.zensar.techtest.converters;
+package com.zensar.tech.converters;
 
-import com.zensar.techtest.model.ColorSwatch;
-import com.zensar.techtest.model.ColorSwatchRGB;
-import com.zensar.techtest.utils.CommonUtils;
+import com.zensar.tech.model.ColorSwatch;
+import com.zensar.tech.model.ColorSwatchRGB;
+import com.zensar.tech.utils.CommonUtils;
 
 import java.util.HashMap;
 import java.util.Map;

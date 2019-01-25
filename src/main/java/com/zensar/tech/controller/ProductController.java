@@ -1,8 +1,8 @@
-package com.zensar.techtest.controller;
+package com.zensar.tech.controller;
 
-import com.zensar.techtest.model.Product;
-import com.zensar.techtest.model.ProductList;
-import com.zensar.techtest.model.ReducedPriceProduct;
+import com.zensar.tech.model.Product;
+import com.zensar.tech.model.ProductList;
+import com.zensar.tech.model.ReducedPriceProduct;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -16,6 +16,14 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * This class is the oontroller for the products service. There are two supported services, one to return a list of all the category 600001506
+ * products and the other to only return a list of the Reduced Price Products.
+ *
+ * @author  Robert Stannard
+ * @version 1.0.0
+ * @since   2019-01-25
+ */
 @RestController
 public class ProductController {
 
@@ -26,7 +34,7 @@ public class ProductController {
     }
 
     /**
-     * Produces a list of products
+     * Produces a list of products of category 600001506
      *
      * @return list of all products
      */
@@ -43,6 +51,13 @@ public class ProductController {
         return result != null ? result.getProducts() : null;
     }
 
+    /**
+     * Produces a list of reduced priced products of category 600001506
+     *
+     * @param  labelType an identifier to determine different ways of displaying the label information.
+     *                   Supported values are, "ShowWasNow", "ShowWasThenNow" and "ShowPercDscount"
+     * @return list of all reduced priced products of category 60001506 sorted by products with the greatest price reduction first
+     */
     @RequestMapping(value = "/api/600001506/getreducedproductslist", produces = "application/json")
     public List<ReducedPriceProduct> getReducedProductsList(@RequestParam(value = "labelType", required = false) String labelType) {
         List<Product> productList = getProductList();
@@ -57,11 +72,11 @@ public class ProductController {
             }
         }
 
-        result.sort(new SortByPriceReductionDesc());
+        result.sort(new SortByPriceReductionDescending());
         return result;
     }
 
-    class SortByPriceReductionDesc implements Comparator<ReducedPriceProduct>
+    class SortByPriceReductionDescending implements Comparator<ReducedPriceProduct>
     {
         // Used for sorting in descending order of price reductions
         public int compare(ReducedPriceProduct a, ReducedPriceProduct b)

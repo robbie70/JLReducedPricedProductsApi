@@ -1,4 +1,4 @@
-package com.zensar.techtest.app;
+package com.zensar.tech.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.zensar.techtest.model;
+package com.zensar.tech.model;
 
 import TestDataGenerator.TestDataGenerator;
 import org.junit.Test;

@@ -2,9 +2,9 @@ package TestDataGenerator;
 
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.zensar.techtest.model.Price;
-import com.zensar.techtest.model.Product;
-import com.zensar.techtest.model.ProductList;
+import com.zensar.tech.model.Price;
+import com.zensar.tech.model.Product;
+import com.zensar.tech.model.ProductList;
 
 import java.io.IOException;
 

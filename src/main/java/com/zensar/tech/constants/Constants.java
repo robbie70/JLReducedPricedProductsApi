@@ -1,4 +1,4 @@
-package com.zensar.techtest.constants;
+package com.zensar.tech.constants;
 
 import java.util.Map;
 import java.util.stream.Collectors;

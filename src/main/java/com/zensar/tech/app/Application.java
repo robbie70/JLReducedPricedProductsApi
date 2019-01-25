@@ -1,4 +1,4 @@
-package com.zensar.techtest.app;
+package com.zensar.tech.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@ComponentScan("com.zensar.techtest")
+@ComponentScan("com.zensar.tech")
 public class Application {
 
 	public static void main(String[] args) {

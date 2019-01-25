@@ -1,4 +1,4 @@
-package com.zensar.techtest.model;
+package com.zensar.tech.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

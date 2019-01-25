@@ -1,6 +1,6 @@
-package com.zensar.techtest.utils;
+package com.zensar.tech.utils;
 
-import com.zensar.techtest.constants.Constants;
+import com.zensar.tech.constants.Constants;
 
 import java.util.Map;
 

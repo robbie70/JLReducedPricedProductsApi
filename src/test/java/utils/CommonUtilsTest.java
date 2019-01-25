@@ -1,6 +1,6 @@
 package utils;
 
-import com.zensar.techtest.utils.CommonUtils;
+import com.zensar.tech.utils.CommonUtils;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

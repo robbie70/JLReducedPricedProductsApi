@@ -1,10 +1,10 @@
-package com.zensar.techtest.model;
+package com.zensar.tech.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.zensar.techtest.constants.Constants;
-import com.zensar.techtest.converters.Converters;
-import com.zensar.techtest.utils.CommonUtils;
+import com.zensar.tech.constants.Constants;
+import com.zensar.tech.converters.Converters;
+import com.zensar.tech.utils.CommonUtils;
 
 import java.util.Arrays;
 import java.util.Objects;

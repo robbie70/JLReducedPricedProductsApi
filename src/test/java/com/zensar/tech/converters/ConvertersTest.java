@@ -1,8 +1,8 @@
-package com.zensar.techtest.converters;
+package com.zensar.tech.converters;
 
 import TestDataGenerator.TestDataGenerator;
-import com.zensar.techtest.model.ColorSwatch;
-import com.zensar.techtest.model.ColorSwatchRGB;
+import com.zensar.tech.model.ColorSwatch;
+import com.zensar.tech.model.ColorSwatchRGB;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

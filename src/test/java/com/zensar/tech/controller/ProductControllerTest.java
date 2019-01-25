@@ -1,4 +1,4 @@
-package com.zensar.techtest.controller;
+package com.zensar.tech.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
