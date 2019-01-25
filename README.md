@@ -22,9 +22,7 @@ C:\PATH_TO_DIR\>git clone "https://github.com/robbie70/JLReducedPricedProductsAp
 
 ## Running the tests
 
-The tests can be executed from inside the IDE.
-
-From inside Intellij navigate to the Project folder,  
+The tests can be executed from inside the IDE. From inside Intellij navigate to the Project folder,  
 /src/test/java  
 and right-click the folder and select the pop-out option "run all tests". This will then execute all the tests in the test suite.
 
