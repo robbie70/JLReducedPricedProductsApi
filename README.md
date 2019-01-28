@@ -11,7 +11,7 @@ This project was developed using Intellij so the below instructions will refer t
 ### Prerequisites
 
 This application requires a fully functioning version of Java8. Ensure that Java8 has been installed and configured in your environment's path and ideally setup
-with a JAVA_HOME environment variable. The application also uses, GradleW and Junit. If you haven't got these installed then make sure you have a
+with a JAVA_HOME environment variable. The application also uses, SpringBoot, GradleW and Junit. If you haven't got these installed then make sure you have a
 working internet connection as once the project starts to load up GradleW will attempt to resolve any missing dependencies by downloading any missing executables. You will also
 need to be able to issue the Git commands to download and install a copy of the code
 
